@@ -1,9 +1,9 @@
-FROM mongo
+FROM mongo:4.0.8
 
-MAINTAINER <Aashrey Sharma> aashreysh@gmail.com
+LABEL maintainer="kevin@mckernan.in"
 
-// Auth Configuration. Modify as needed. 
-// These environment variables can also be specified through command line or docker-compose configuration
+# Auth Configuration. Modify as needed.
+# These environment variables can also be specified through command line or docker-compose configuration
 # ENV AUTH yes
 
 # ENV MONGODB_ADMIN_USER root
